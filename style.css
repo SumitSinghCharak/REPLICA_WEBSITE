@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #fff;
+    color: black;
+    padding: 10px 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    background: url('bulding.jpg') right;
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+}
+
+.hero h2 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.gallery{
+    text-align: center;
+}
+
+.gallery h2 { 
+    font-size: 2em;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+.gallery-item1 {
+    grid-row: 1/4;
+}
+
+.gallery-item1 img {
+    height: 100%;
+}
+
+.gallery-item1 img, .gallery-item2 img, .gallery-item3 img, .gallery-item4 img {
+    width: 100%;
+    /*height: auto;*/
+    display: block; 
+    border-radius: 2%;
+}
+
+.amenities {
+    padding: 10px;
+    border-radius: 1%;
+    background-color: #333;
+    color: #fff;
+ }
+
+.table {
+    background-color: #333;
+    color: #fff;
+ }
+
+table tr th {
+    width: 100%;
+}
+
+.item {
+    padding: 10px;
+    border-bottom: 1px solid grey;
+  }
+  
+.title {
+    width: 100%;
+    font-size: 14px;
+    color: black;
+  }
+  
+
+form label {
+    margin-top: 0.5rem;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.1rem;
+}
+
+form input[type="submit"] {
+    background-color: #0000b0;
+    border-radius: 5%;
+    color: white; 
+    border: #333; 
+    padding: 0.5rem; 
+    cursor: pointer; 
+}
+
+form input[type="button"] {
+    background-color: darkorange;
+    border-radius: 5%;
+    color: white; 
+    border: #333; 
+    padding: 0.5rem; 
+    cursor: pointer; 
+}
+ 
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
