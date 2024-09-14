@@ -7,6 +7,8 @@ body {
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
+    height: 100vh;
+    width: 100vw;
     color: #333;
 }
 
@@ -133,7 +135,16 @@ form input[type="button"] {
     padding: 0.5rem; 
     cursor: pointer; 
 }
+
+#contact{
+    display: flex;
+    flex-direction: column;
+}
+
  
+#BTN {
+    width: 80px;
+}
 .container {
     display: flex;
     justify-content: space-around;
